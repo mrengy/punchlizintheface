@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Punch Mattiello in the Face</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-custom.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- https://github.com/mrengy/punchmattiellointheface -->
+        <div class="main-container" id="face-wrapper">
+            <div class="main wrapper clearfix" id="face-container">
+                <img
+                srcset="img/mattiello-413w.png 413w,
+                        img/mattiello-768w.png 768w,
+                        img/mattiello-1215w.png 1215w,
+                        img/mattiello-1400w.png 1400w"
+                src="img/mattiello-1400.png"
+                id="face" class="unselectable"
+                alt="Nick Mattiello's Face"/>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        <img class="spot" id="original-spot" src="img/spot.svg"/>
+        <audio preload="none" id="eel">
+            <source src="sound/splat.mp3" type="audio/mpeg"/>
+            <source src="sound/splat.ogg" type="audio/ogg"/>
+        </audio>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.5.1.slim.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15294685-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-15294685-3');
+        </script>
+
+    </body>
+</html>
